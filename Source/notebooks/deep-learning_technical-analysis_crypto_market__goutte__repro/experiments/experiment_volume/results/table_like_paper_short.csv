@@ -1,0 +1,13 @@
+Model,InputType,FeatureType,Strategy,Val_Sharpe,Val_Precision,Val_Recall,Val_AvgReturn,Test_Sharpe,Test_Precision,Test_Recall,Test_AvgReturn,Alpha
+XGBOOST,candle,extended,short,0.09,68.09%,1.44%,0.128%,0.08,61.54%,1.39%,0.055%,0.77
+LGBM,candle,extended,short,0.23,66.2%,1.05%,0.222%,-0.03,60.34%,0.76%,-0.024%,0.75
+XGBOOST,ohlc,extended,short,0.07,57.65%,6.17%,0.071%,0.08,58.33%,8.08%,0.065%,0.7
+LGBM,ohlc,extended,short,0.11,60.18%,6.1%,0.11%,0.02,55.39%,4.92%,0.016%,0.71
+LOGISTIC,ohlc,raw,short,0.05,52.48%,40.79%,0.046%,0.02,52.79%,51.41%,0.016%,0.53
+LOGISTIC,ohlc,extended,short,0.22,62.26%,0.74%,0.351%,0.07,51.61%,0.35%,0.067%,0.86
+LOGISTIC,candle,raw,short,0.23,58.82%,0.67%,0.325%,-0.05,50.0%,0.35%,-0.062%,0.95
+LOGISTIC,candle,extended,short,0.23,60.0%,2.29%,0.359%,0.01,47.45%,1.41%,0.011%,0.86
+LGBM,ohlc,raw,short,0.19,60.78%,0.7%,0.161%,0.07,47.24%,1.31%,0.062%,0.78
+LGBM,candle,raw,short,0.04,51.47%,3.93%,0.048%,-0.02,46.56%,3.68%,-0.016%,0.66
+XGBOOST,candle,raw,short,0.13,56.36%,0.7%,0.113%,-0.11,46.22%,1.2%,-0.071%,0.75
+XGBOOST,ohlc,raw,short,0.04,55.56%,0.9%,0.046%,-0.11,41.78%,2.05%,-0.076%,0.69

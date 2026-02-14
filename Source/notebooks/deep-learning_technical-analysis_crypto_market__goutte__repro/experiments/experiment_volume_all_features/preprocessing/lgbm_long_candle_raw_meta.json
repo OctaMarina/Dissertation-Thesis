@@ -1,0 +1,23 @@
+{
+  "feature_columns": [
+    "close",
+    "candle_body",
+    "upper_shadow",
+    "lower_shadow",
+    "volume",
+    "trades",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "tick_num",
+    "cum_buy_volume",
+    "cum_ticks",
+    "cum_dollar_value"
+  ],
+  "alpha": 0.604,
+  "direction": 1,
+  "lookback": 24,
+  "model_name": "lgbm",
+  "tag": "lgbm_long_candle_raw"
+}

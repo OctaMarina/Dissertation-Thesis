@@ -1,0 +1,57 @@
+{
+    "experiment_name": "experiment_volume_all_features",
+
+   "data_path": "btc_dataset_volume_1_hour__btcusd_format.csv",
+
+     "columns": {
+        "timestamp": "Timestamp",
+        "open": "Open",
+        "high": "High",
+        "low": "Low",
+        "close": "Close",
+        "volume": "Volume"
+    },
+
+
+  "extra_features": [
+    "tick_num",
+    "cum_buy_volume",
+    "cum_ticks",
+    "cum_dollar_value"
+  ],
+
+    "start_date": "2017-12-01",
+    "end_date": "2022-08-31",
+
+    "lookback": 24,
+    "horizon": 1,
+
+    "train_ratio": 0.50,
+    "val_ratio": 0.25,
+    "test_ratio": 0.25,
+
+    "alpha_grid_points": 1001,
+    "min_signals": 50,
+
+    "recall_range_long": [0.08, 0.12],
+    "recall_range_short": null,
+
+    "sma_windows": [15, 20, 25, 30],
+    "rsi_windows": [15, 20, 25, 30],
+    "wr_window": 14,
+    "so_window": 14,
+    "mfi_window": 14,
+
+    "enable_deep_models": false,
+    "enable_lgbm": true,
+    "seed": 42,
+
+    "epochs": 500,
+    "batch_size": 1024,
+    "early_stop_patience": 25,
+
+    "models": ["logistic", "xgboost", "lgbm"],
+    "strategies": ["long", "short"],
+    "input_types": ["ohlc", "candle"],
+    "feature_types": ["raw", "extended"]
+}

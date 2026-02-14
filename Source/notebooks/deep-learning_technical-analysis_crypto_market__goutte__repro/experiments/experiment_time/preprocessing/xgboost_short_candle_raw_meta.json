@@ -1,0 +1,19 @@
+{
+  "feature_columns": [
+    "close",
+    "candle_body",
+    "upper_shadow",
+    "lower_shadow",
+    "volume",
+    "trades",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos"
+  ],
+  "alpha": 0.678,
+  "direction": -1,
+  "lookback": 24,
+  "model_name": "xgboost",
+  "tag": "xgboost_short_candle_raw"
+}

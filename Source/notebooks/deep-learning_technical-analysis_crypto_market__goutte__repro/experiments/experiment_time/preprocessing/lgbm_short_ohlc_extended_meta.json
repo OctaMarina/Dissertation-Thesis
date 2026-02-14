@@ -1,0 +1,31 @@
+{
+  "feature_columns": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "trades",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "SMA_15",
+    "SMA_20",
+    "SMA_25",
+    "SMA_30",
+    "RSI_15",
+    "RSI_20",
+    "RSI_25",
+    "RSI_30",
+    "MACD",
+    "WR",
+    "SO",
+    "MFI"
+  ],
+  "alpha": 0.757,
+  "direction": -1,
+  "lookback": 24,
+  "model_name": "lgbm",
+  "tag": "lgbm_short_ohlc_extended"
+}

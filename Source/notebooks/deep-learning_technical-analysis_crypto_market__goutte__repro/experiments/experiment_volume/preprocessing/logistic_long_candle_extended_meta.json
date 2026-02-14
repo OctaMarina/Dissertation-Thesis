@@ -1,0 +1,31 @@
+{
+  "feature_columns": [
+    "close",
+    "candle_body",
+    "upper_shadow",
+    "lower_shadow",
+    "volume",
+    "trades",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "SMA_15",
+    "SMA_20",
+    "SMA_25",
+    "SMA_30",
+    "RSI_15",
+    "RSI_20",
+    "RSI_25",
+    "RSI_30",
+    "MACD",
+    "WR",
+    "SO",
+    "MFI"
+  ],
+  "alpha": 0.6950000000000001,
+  "direction": 1,
+  "lookback": 24,
+  "model_name": "logistic",
+  "tag": "logistic_long_candle_extended"
+}

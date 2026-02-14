@@ -1,0 +1,23 @@
+{
+  "feature_columns": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "trades",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "tick_num",
+    "cum_buy_volume",
+    "cum_ticks",
+    "cum_dollar_value"
+  ],
+  "alpha": 0.863,
+  "direction": -1,
+  "lookback": 24,
+  "model_name": "lgbm",
+  "tag": "lgbm_short_ohlc_raw"
+}
